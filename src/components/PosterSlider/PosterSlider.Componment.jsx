@@ -68,4 +68,4 @@ const PosterSlider = (props) => {
     );
 }
 
-export default PosterSlider
+export default PosterSlider;

@@ -8,7 +8,7 @@ const MoviePoster = (props) => {
             <div className="h-40 md:h-80">
             <img
                 src={`https://image.tmdb.org/t/p/original${props.poster_path}`}
-                alt="poster"
+                alt="Poster"
                 className="w-full h-full rounded-md"
             />
             </div>
@@ -20,12 +20,12 @@ const MoviePoster = (props) => {
             {props.title}
             </h3>
             {/* <p
-        className={`text-lg font-bold ${
-            props.isDark ? "text-white" : "text-gray-700"
-        }`}
-        >
-        {props.subtitle}
-        </p> */}
+            className={`text-lg font-bold ${
+                props.isDark ? "text-white" : "text-gray-700"
+            }`}
+            >
+            {props.subtitle}
+            </p> */}
         </div>
         </Link>
     );

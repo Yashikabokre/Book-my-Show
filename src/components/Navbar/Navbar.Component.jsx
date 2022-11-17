@@ -70,8 +70,8 @@ function NavLg() {
                     Indore<BiChevronDown />
                 </span>
                 <Link
-                to="/plays"
-                className="text-gray-200 text-base flex items-center cursor-pointer hover:text-white"
+                    to="/plays"
+                    className="text-gray-200 text-base flex items-center cursor-pointer hover:text-white"
                 >
                 Plays
                 </Link>
