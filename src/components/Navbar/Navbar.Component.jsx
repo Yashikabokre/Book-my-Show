@@ -91,18 +91,18 @@ function NavLg() {
 const Navbar = () => {
     return  (
             <nav className="bg-darkBackground-700 px-4 py-3">
-            {/* Mobile Screen NavBar */}
-            <div className="md:hidden">
-                <NavSm />
-            </div>
-            {/* Medium/Tab Screen NavBar */}
-            <div className="hidden md:flex lg:hidden">
-                <NavMd />
-            </div>
-            {/* Large Screen NavBar */}
-            <div className="hidden md:hidden lg:flex">
-                <NavLg />
-            </div>
+                {/* Mobile Screen NavBar */}
+                <div className="md:hidden">
+                    <NavSm />
+                </div>
+                {/* Medium/Tab Screen NavBar */}
+                <div className="hidden md:flex lg:hidden">
+                    <NavMd />
+                </div>
+                {/* Large Screen NavBar */}
+                <div className="hidden md:hidden lg:flex">
+                    <NavLg />
+                </div>
             </nav>
     );
 }

@@ -58,7 +58,7 @@ const MovieHero = () => {
                         "linear-gradient(90deg, rgb(34, 34, 34) 14.95%, rgba(34, 34, 34) 30.3%, rgba(34, 34, 34, 0.90) 38.3%, rgba(34, 34, 34, 0.60) 58.3%, rgba(34, 34, 34, 0.04) 100%)",
                     }}
                 />
-{/* //TODO */}
+
                 <div className="absolute z-30 left-24 top-10 flex items-center gap-10">
                     <div className="w-64 h-96">
                     <img
