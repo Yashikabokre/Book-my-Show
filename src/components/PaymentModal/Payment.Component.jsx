@@ -8,7 +8,7 @@ const PaymentModel = ({setIsOpen, isOpen, price}) => {
     };
 
 
-    const launchRazorPay = () => {
+    const lunchRazorPay = () => {
         let options = {
             key: "rzp_test_JzbbHJX2Rtt3Bj",
             amount: price * 100,

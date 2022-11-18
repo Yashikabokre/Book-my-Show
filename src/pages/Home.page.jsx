@@ -4,7 +4,7 @@ import axios from 'axios';
 //component
 import EntertrainmentCardSlider from '../components/Entertainment/EntertrainmentCard.Componemt';
 import HeroCarousel from '../components/HeroCarousel/HeroCarousel.Component';
-import PosterSlider from '../components/PosterSlider/PosterSlider.Componment';
+import PosterSlider from '../components/PosterSlider/PosterSlider.Componment.jsx'
 //layout hoc
 import DefaultLayoutHoc from '../Layout/Default.layout';
 

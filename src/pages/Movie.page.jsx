@@ -5,7 +5,7 @@ import axios from "axios";
 import { MovieContext } from "../context/Movie.context";
 import Slider from "react-slick";
 import { FaCcVisa, FaCcApplePay } from "react-icons/fa";
-import PosterSlider from "../components/PosterSlider/PosterSlider.Component";
+import PosterSlider from '../components/PosterSlider/PosterSlider.Componment.jsx'
 import MovieHero from "../components/MovieHero/MovieHero.Component";
 import Cast from "../components/Cast/Cast.Component";
 
@@ -48,11 +48,12 @@ const MoviePage = () => {
     useEffect(() => {
         const requestMovie = async () => {
             const getMovieData = await axios.get(`/movie/${id}`);
-            setMovie(getMovieData.data);
+            console.log(getMovieData);
+            //setMovie(getMovieData.data);
         };
 
         requestMovie();
-    }, [id]);
+    }, );
 
     const settingCast = {
         infinite: false,

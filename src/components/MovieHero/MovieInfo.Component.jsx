@@ -1,11 +1,11 @@
 import React, {useContext} from 'react';
-import {PaymentModel} from "../PaymentModal/Payment.Component";
+import PaymentModel  from "../PaymentModal/Payment.Component";
 import { MovieContext } from "../../context/Movie.context";
 
 
 const MovieInfo = ({ movie }) => {
 
-    const { price, setIsOpen, isOpen, rentMovie, buyMovie } =
+    const { price, setIsOpen, isOpen, buyMovie, rentMovie  } =
         useContext(MovieContext);
     const genres = movie.genres?.map(({ name }) => name).join(", ");
     
